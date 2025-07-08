@@ -5,7 +5,7 @@ public class Product {
 		static int preID;
 		String preName;
 		double prePrice;
-		void f1()
+		void f1() {
 	}
 public Product(String preName, double prePrice) {
 			super();
@@ -15,5 +15,6 @@ public Product(String preName, double prePrice) {
 @Override
 public String toString() {
 	return "Product [preName=" + preName + ", prePrice=" + prePrice + "]";
+}
 }
 
